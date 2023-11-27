@@ -1,0 +1,668 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.fa-solid{
+    color: #06BBCC;
+
+}
+
+
+.image{
+    background-image: url(images/baim-hanif-pYWuOMhtc6k-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.two-way1{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.two-way1 h6{
+    color: white;
+}
+
+.two-way1 h1{
+    color: white;
+}
+
+.two-way1 p{
+    color: white;
+}
+
+.our-course{
+    background-color: #f581e1;
+    color: white;
+    font-weight: 500;
+}
+
+.learn-more{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
+
+
+.two-way2{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.login{
+    background-color: rgb(255, 255, 255,0.2);
+    height: 650px;
+    width: 430px;
+    border-radius: 15px;
+}
+
+.two-way2 h4{
+    color: white;
+}
+
+
+.form-group{
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.label{
+    position: absolute;
+    top: -28px;
+    left: 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 0;
+    margin-left: 50px;
+    padding: 0 4px;
+}
+
+.form-control{
+    height: 52px;
+    width: 360px;
+    background: rgba(236, 234, 234, 0.5);
+    font-size: 16px;
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+.submit{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ce75e4;
+    border-radius: 4px;
+
+}
+
+.main-submit{
+    display: flex;
+    justify-content: end;
+}
+
+.fa-paper-plane{
+    color: white;
+}
+
+.already-acco{
+    text-align: center;
+}
+
+.already-acco span a{
+    color: #ce75e4;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
+/* Four main Points */
+
+.four-boxes{
+    height: 280px;
+    width: 280px;
+    background-color: #F0FBFC;
+}
+
+.fa-graduation-cap ,.fa-globe ,.fa-house-chimney ,.fa-book-open{
+    font-size: 50px;
+    color: #06BBCC;
+}
+
+.four-boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main1 .row{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.four-boxes p{
+    text-align: center;
+}
+
+/* Four main Points */
+
+
+
+/* about us deatils */
+
+
+.Girl-image{
+    height: auto;
+    width: 550px;
+}
+
+.about{
+    color: #06BBCC;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.welcome{
+    color: #000000;
+    font-weight: 600;
+}
+
+.education-para{
+    color: #5f5e5e;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.skils-point{
+    color: #5f5e5e;
+    font-weight: 500;
+}
+
+.read-more{
+    border-radius: 0%;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: #06BBCC;
+    font-weight: 500;
+}
+
+
+.read-more:hover{
+    color: #06BBCC;
+    border: 2px solid #06BBCC;
+    background-color: white;
+    transition: all ease-in 0.4s;
+}
+
+/* about us deatils */
+
+
+
+
+
+/* Categories */
+
+.Categories-heading{
+    color: #06BBCC;
+    text-align: center;
+}
+
+.Categories-heading h1{
+    color: black;
+    font-weight: 500;
+}
+
+
+
+.box-1{
+    height: 240px;
+    overflow: hidden;
+
+}
+
+
+
+.web-design{
+    height: 260px;
+    background-image: url(images/web-design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.web-design:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;    
+}
+
+
+.Design-button{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    border-radius: 0%;
+    height: 60px;
+    width: 150px;
+    border-right: 3px solid rgba(0, 0, 0, 0.2);
+} 
+
+
+.box-2{
+    height: 240px;
+    overflow: hidden;
+
+}
+
+.Graphic-design{
+    height: 270px;
+    background-image: url(images/graphic\ design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 10px;
+}
+
+.Graphic-design:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;    
+}
+
+.Graphic-button{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    border-radius: 0%;
+    height: 60px;
+    width: 150px;
+    border-right: 3px solid rgba(0, 0, 0, 0.2);
+
+} 
+
+.box-3{
+    height: 240px;
+    overflow: hidden;
+
+}
+
+
+.Video-editing{
+    height: 270px;
+    background-image: url(images/video-editing.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.Video-editing:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;    
+}
+
+.Video-button{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    border-radius: 0%;
+    height: 60px;
+    width: 150px;
+    border-right: 3px solid rgba(0, 0, 0, 0.2);
+} 
+
+.box-4{
+    height: 500px;
+    overflow: hidden;
+}
+
+.online-marketing{
+    height: 495px;
+    background-image: url(images/online-marketing.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.online-marketing:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;    
+}
+
+.Marketing-button{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    border-radius: 0%;
+    height: 60px;
+    width: 200px;
+    border-right: 3px solid rgba(0, 0, 0, 0.2);
+
+}
+
+.courses{
+    color: #06BBCC;
+    font-weight: 400;
+}
+
+.dontknowclass{
+    display: flex;
+    gap: 10px;
+}
+
+/* Categories */
+
+
+
+
+
+
+
+
+/* Popular Courses */
+
+.main3 .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.statment{
+    background-color: #F0FBFC;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statment h4{
+    text-align: center;
+    font-size: larger;
+    color: black;
+}
+
+.boxes{
+    height: 500px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.popular-pic1{
+    background-image: url(images/popular-course1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.popular-pic1:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ; 
+}
+
+.popular-pic2{
+    background-image: url(images/popular-course2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.popular-pic2:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ; 
+}
+
+.popular-pic3{
+    background-image: url(images/popular-course3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.popular-pic3:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ; 
+}
+
+.checked {
+    color: #06BBCC;
+}
+.review{
+    border-top: 1px solid rgb(199, 197, 197);
+}
+
+.review span{
+    color: rgb(116, 115, 115);
+    font-size: 15px;
+}
+
+.unknown{
+    border-right: 1px solid rgb(199, 197, 197);
+}
+
+.read-button{
+    background-color: #06BBCC;
+    width: 200px;
+    border-radius: 50px;
+}
+.read-button span{
+    border-left: 1px solid rgb(255, 255, 255);
+}
+
+.read-button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Popular Courses */
+
+
+
+
+
+
+
+
+/* Expert Instructer */
+
+.expert-boxes{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+
+.expert1{
+    width: 100%;
+    height: 270px;
+    background-image: url(images/expert1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.expert1:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ; 
+
+}
+
+
+.expert2{
+    width: 100%;
+    height: 270px;
+    background-image: url(images/expert2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.expert2:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ; 
+
+}
+
+.expert3{
+    width: 100%;
+    height: 270px;
+    background-image: url(images/expert3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.expert3:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ; 
+
+}
+
+
+.expert4{
+    width: 100%;
+    height: 270px;
+    background-image: url(images/expert4.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.expert4:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ; 
+
+}
+
+.statment2{
+    background-color: #F0FBFC;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statment2 span{
+    font-size: small;
+    color: #5f5e5e;
+}
+
+.social-media{
+    /* border: 1px solid #000; */
+    width: 130px;
+    height: 50px;
+    background-color: #F0FBFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-media span{
+    border: 1px solid #000;
+    width: 100%;
+}
+
+.fa-square-facebook{
+    font-size: 37px;
+    color: #06BBCC;
+}
+
+.fa-square-twitter{
+    font-size: 37px;
+    color: #06BBCC;
+}
+
+.fa-square-instagram{
+    font-size: 37px;
+    color: #06BBCC;
+}
+
+.star span{
+    color: #06BBCC;
+}
+
+
+
+
+
+
+
+/* Expert Instructer */
